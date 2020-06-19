@@ -1,4 +1,6 @@
 # DCASE-2020-Task-1B
 Source code for the submission to DCASE 2020 Task 1B
 
-(Currently under reorganisation, please check back later for files)
+(Files have been uploaded, README is under construction)
+
+Run `model1.py`, `model2.py`, `model3.py`, and `model4.py` to obtain the reported results in the paper.

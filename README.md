@@ -1,5 +1,5 @@
 # DCASE-2020-Task-1B
-Source code for the submission to DCASE 2020 Task 1B
+Source code for the submission to DCASE 2020 Task 1B (Kenneth Ooi, Santi Peksi, Woon-Seng Gan)
 
 (Files have been uploaded, README is under construction)
 

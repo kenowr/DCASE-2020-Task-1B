@@ -21,9 +21,11 @@ To perform multiple runs, simply enter the model number(s) multiple times. For e
 
 Alternatively, the individual model files `model1.py`, `model2.py`, `model3.py`, and `model4.py` can also be run to obtain the reported results in the technical report.
 
-The conda environment used to run the functions is given in `dcase2020task1b.yml`. See <a href='#system_setup'> here</a>.
+The specific system setup that we used to obtain the results for the technical paper is described in the following section <a href='#system_setup'> here </a>, with the exact conda environment being given in the file `dcase2020task1b.yml` found in this repository.
 
-The `model1.py`, `model2.py`, `model3.py`, and `model4.py` files will auto-download the dataset from Zenodo if it has not yet been downloaded, but since the development and evaluation sets are relatively large (38.6GB and 23.1GB, downloadable from https://zenodo.org/record/3670185 and https://zenodo.org/record/3685835 respectively), you may want to use your own download manager to download the datasets before running the code in this repository. In that case, please place the unzipped files from Zenodo into the project repository such that the following structure is matched:
+Dataset
+-------
+The files `main.py`, `model1.py`, `model2.py`, `model3.py`, and `model4.py` will automatically download the dataset from Zenodo if it has not yet been downloaded, but since the development and evaluation sets are relatively large (38.6GB and 23.1GB, downloadable from https://zenodo.org/record/3670185 and https://zenodo.org/record/3685835 respectively), you may want to use your own download manager to download the datasets before running the code in this repository. In that case, please place the unzipped files from Zenodo into the project repository such that the following structure is matched:
 
     .
     ├── datasets                                                   # Dataset files from Zenodo

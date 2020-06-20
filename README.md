@@ -8,10 +8,15 @@ Getting started
 ---------------
 
 To train and print metrics for all models in the technical report, simply run the following line from a terminal:
+
     python main.py
+    
 To train and print metrics for only specific models, specify the model number(s) after the function call to `main.py`. For example, to train Model 4 followed by Model 1, enter the following:
+
     python main.py 4 1
+    
 To perform multiple runs, simply enter the model number(s) multiple times. For example, to train Model 2 for five runs, enter the following:
+
     python main.py 2 2 2 2 2
 
 Alternatively, the individual model files `model1.py`, `model2.py`, `model3.py`, and `model4.py` can also be run to obtain the reported results in the technical report.

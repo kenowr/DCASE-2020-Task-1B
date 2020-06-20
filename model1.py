@@ -14,7 +14,6 @@ from model_size_calculation import get_keras_model_size
 ## INITIAL PREPARATION
 download_dcase_dataset()
 make_features()
-augment_features()
 
 ## LOAD FEATURES
 feature_dir = 'features' + os.sep

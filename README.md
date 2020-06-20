@@ -2,8 +2,6 @@
 
 Source code for the submission to DCASE 2020 Task 1B (Kenneth Ooi, Santi Peksi, Woon-Seng Gan)
 
-(Files have been uploaded, README is under construction)
-
 Getting started
 ---------------
 
@@ -19,9 +17,9 @@ To perform multiple runs, simply enter the model number(s) multiple times. For e
 
     python main.py 2 2 2 2 2
 
-Alternatively, the individual model files `model1.py`, `model2.py`, `model3.py`, and `model4.py` can also be run to obtain the reported results in the technical report.
+Alternatively, the individual model files `model1.py`, `model2.py`, `model3.py`, and `model4.py` can also be run to obtain the reported results in the technical report. For example, running `python model3.py` has the same effect as running `python main.py 3`.
 
-The specific system setup that we used to obtain the results for the technical paper is described in the following section <a href='#system_setup'> here </a>, with the exact conda environment being given in the file `dcase2020task1b.yml` found in this repository.
+The specific system setup that we used to obtain the results for the technical paper is described in the <a href='#system_setup'>following section</a>, with the exact conda environment being given in the file `dcase2020task1b.yml` found in this repository.
 
 Dataset
 -------
@@ -69,7 +67,7 @@ The system we used to test the code in this repository is as follows:
 The main driver and software versions were:
 - CUDA version 10.1 (downloadable <a href='https://developer.nvidia.com/cuda-10.1-download-archive-base'> here </a> with an NVIDIA account)
 - cuDNN version 7.6.5 (downloadable <a href='https://developer.nvidia.com/rdp/cudnn-download'> here </a> with an NVIDIA account)
-- conda version 4.8.3 (downloadable <a href='https://www.anaconda.com/products/individual'> here </a>)
+- conda version 4.8.3 (downloadable <a href='https://www.anaconda.com/products/individual'> here</a>)
 - Python version 3.7.6
 - TensorFlow version 2.1.0
 

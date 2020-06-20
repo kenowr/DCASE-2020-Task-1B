@@ -2,20 +2,23 @@
 
 Source code for the submission to DCASE 2020 Task 1B (Kenneth Ooi, Santi Peksi, Woon-Seng Gan)
 
-
 (Files have been uploaded, README is under construction)
 
 Getting started
 ---------------
 
+To train and print metrics for all models in the technical report, simply run the following line from a terminal:
+    python main.py
+To train and print metrics for only specific models, specify the model number(s) after the function call to `main.py`. For example, to train Model 4 followed by Model 1, enter the following:
+    python main.py 4 1
+To perform multiple runs, simply enter the model number(s) multiple times. For example, to train Model 2 for five runs, enter the following:
+    python main.py 2 2 2 2 2
 
-
-
-Run `model1.py`, `model2.py`, `model3.py`, and `model4.py` to obtain the reported results in the technical report.
+Alternatively, the individual model files `model1.py`, `model2.py`, `model3.py`, and `model4.py` can also be run to obtain the reported results in the technical report.
 
 The conda environment used to run the functions is given in `dcase2020task1b.yml`. See <a href='#system_setup'> here</a>.
 
-The `model1.py`, `model2.py`, `model3.py`, and `model4.py` files will auto-download the dataset from Zenodo if it has not yet been downloaded, but since the development and evaluation sets are relatively large (38.6GB and 23.1GB, downloadable from https://zenodo.org/record/3670185 and https://zenodo.org/record/3685835 respectively), you may want to use your own download manager to download the datasets before running the code in this repository. In that case, please place the unzipped files from Zenodo into the project repository in the following structure:
+The `model1.py`, `model2.py`, `model3.py`, and `model4.py` files will auto-download the dataset from Zenodo if it has not yet been downloaded, but since the development and evaluation sets are relatively large (38.6GB and 23.1GB, downloadable from https://zenodo.org/record/3670185 and https://zenodo.org/record/3685835 respectively), you may want to use your own download manager to download the datasets before running the code in this repository. In that case, please place the unzipped files from Zenodo into the project repository such that the following structure is matched:
 
     .
     ├── datasets                                                   # Dataset files from Zenodo
@@ -36,11 +39,17 @@ The `model1.py`, `model2.py`, `model3.py`, and `model4.py` files will auto-downl
     │   
     ├── Ooi_NTU_task1b.technical_report.pdf                        # Technical report
     ├── README.md                                                  # This file
-    ┆                                                              
-    ┆                                                              # Other files in this repository
+    ├── dataset_filenames.csv                                      # List of filenames in dataset (for validation)
+	├── dcase2020task1b.yml                                        # conda environment file for this repository
+	├── dcase2020task1b_functions.py                               # Functions called by model1.py, ..., model4.py
+	├── devt_urls.csv                                              # URLs to download the development set from
+	├── eval_urls.csv                                              # URLs to download the evaluation set from
+	├── model1.py
+	├── model2.py
+	├── model3.py
+	├── model4.py
     └── model_size_calculation.py                                  # Last file in this repository in lexicographic order
     
-
 System setup <a name='system_setup'>
 ------------
 The system we used to test the code in this repository is as follows:

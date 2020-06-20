@@ -25,7 +25,7 @@ The specific system setup that we used to obtain the results for the technical p
 
 Dataset
 -------
-The files `main.py`, `model1.py`, `model2.py`, `model3.py`, and `model4.py` will automatically download the dataset from Zenodo if it has not yet been downloaded, but since the development and evaluation sets are relatively large (38.6GB and 23.1GB, downloadable from https://zenodo.org/record/3670185 and https://zenodo.org/record/3685835 respectively), you may want to use your own download manager to download the datasets before running the code in this repository. In that case, please place the unzipped files from Zenodo into the project repository such that the following structure is matched:
+The dataset we used to train the models for our submission is the TAU Urban Acoustic Scenes 2020 3Class dataset. The files `main.py`, `model1.py`, `model2.py`, `model3.py`, and `model4.py` will automatically download the dataset from Zenodo if it has not yet been downloaded, but since the development and evaluation sets are relatively large (38.6GB and 23.1GB, downloadable from https://zenodo.org/record/3670185 and https://zenodo.org/record/3685835 respectively), you may want to use your own download manager to download the datasets before running the code in this repository. In that case, please place the unzipped files from Zenodo into the project repository such that the following directory structure is matched:
 
     .
     ├── datasets                                                   # Dataset files from Zenodo
@@ -47,14 +47,15 @@ The files `main.py`, `model1.py`, `model2.py`, `model3.py`, and `model4.py` will
     ├── Ooi_NTU_task1b.technical_report.pdf                        # Technical report
     ├── README.md                                                  # This file
     ├── dataset_filenames.csv                                      # List of filenames in dataset (for validation)
-	├── dcase2020task1b.yml                                        # conda environment file for this repository
-	├── dcase2020task1b_functions.py                               # Functions called by model1.py, ..., model4.py
-	├── devt_urls.csv                                              # URLs to download the development set from
-	├── eval_urls.csv                                              # URLs to download the evaluation set from
-	├── model1.py
-	├── model2.py
-	├── model3.py
-	├── model4.py
+    ├── dcase2020task1b.yml                                        # conda environment file for this repository
+    ├── dcase2020task1b_functions.py                               # Functions called by model1.py, ..., model4.py
+    ├── devt_urls.csv                                              # URLs to download the development set from
+    ├── eval_urls.csv                                              # URLs to download the evaluation set from
+    ├── main.py
+    ├── model1.py
+    ├── model2.py
+    ├── model3.py
+    ├── model4.py
     └── model_size_calculation.py                                  # Last file in this repository in lexicographic order
     
 System setup <a name='system_setup'>

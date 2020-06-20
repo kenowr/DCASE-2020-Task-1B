@@ -1,20 +1,13 @@
 # DCASE-2020-Task-1B
+
 Source code for the submission to DCASE 2020 Task 1B (Kenneth Ooi, Santi Peksi, Woon-Seng Gan)
+
+Getting started
+---------------
+
 
 (Files have been uploaded, README is under construction)
 
-The system we used to test the code in this repository is as follows:
-- OS: Windows 10
-- Processor: Intel Core i9-7900X CPU @ 3.30GHz
-- RAM: 64GB
-- GPU: NVIDIA GeForce GTX 1080 Ti
-
-The main driver and software versions were:
-- CUDA version 10.1
-- cuDNN version 7.6.5
-- conda version 4.8.3
-- Python version 3.7.6
-- TensorFlow version 2.1.0
 
 Run `model1.py`, `model2.py`, `model3.py`, and `model4.py` to obtain the reported results in the technical report.
 
@@ -43,4 +36,22 @@ The `model1.py`, `model2.py`, `model3.py`, and `model4.py` files will auto-downl
     ├── README.md                                                  # This file
     ┆                                                              
     ┆                                                              # Other files in this repository
-    └── model_size_calculation.py                                  # Last file in this repository in lexicographic order   
+    └── model_size_calculation.py                                  # Last file in this repository in lexicographic order
+    
+    
+    
+System setup
+------------
+
+The system we used to test the code in this repository is as follows:
+- OS: Windows 10
+- Processor: Intel Core i9-7900X CPU @ 3.30GHz
+- RAM: 64GB
+- GPU: NVIDIA GeForce GTX 1080 Ti
+
+The main driver and software versions were:
+- CUDA version 10.1
+- cuDNN version 7.6.5
+- conda version 4.8.3
+- Python version 3.7.6
+- TensorFlow version 2.1.0

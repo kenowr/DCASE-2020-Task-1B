@@ -72,3 +72,7 @@ The main driver and software versions were:
 - TensorFlow version 2.1.0
 
 The exact conda environment that we used to test the code in this repository is given in the file `dcase2020task1b.yml`, which can be cloned, for example, by entering `conda env create -f dcase2020task1b.yml` into an Anaconda prompt terminal.
+
+Contact
+-------
+If you encounter any problems/bugs in the source code, please drop an email at <a href='mailto:wooi002@e.ntu.edu.sg'> wooi002@e.ntu.edu.sg</a>.

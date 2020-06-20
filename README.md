@@ -4,6 +4,9 @@ Source code for the submission to DCASE 2020 Task 1B (Kenneth Ooi, Santi Peksi, 
 
 Getting started
 ---------------
+Firstly, clone this repository by manually downloading it from https://github.com/kenowr/DCASE-2020-Task-1B.git, or enter the following line from a terminal:
+
+    git clone https://github.com/kenowr/DCASE-2020-Task-1B.git
 
 To train and print metrics for all models in the technical report, simply run the following line from a terminal:
 

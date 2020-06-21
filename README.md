@@ -15,12 +15,10 @@ To train and print metrics for all models in the technical report, simply run th
 To train and print metrics for only specific models, specify the model number(s) after the function call to `main.py`. For example, to train Model 4 followed by Model 1, enter the following:
 
     python main.py 4 1
-    
-To perform multiple runs, simply enter the model number(s) multiple times. For example, to train Model 2 for five runs, enter the following:
-
-    python main.py 2 2 2 2 2
 
 Alternatively, the individual model files `model1.py`, `model2.py`, `model3.py`, and `model4.py` can also be run to obtain the reported results in the technical report. For example, running `python model3.py` has the same effect as running `python main.py 3`.
+
+However, avoid running the same models multiple times without clearing the directories where files are saved to each time.
 
 The specific system setup that we used to obtain the results for the technical paper is described in the <a href='#system_setup'>following section</a>, with the exact conda environment being given in the file `dcase2020task1b.yml` found in this repository.
 

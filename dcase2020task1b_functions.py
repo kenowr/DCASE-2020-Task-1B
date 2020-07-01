@@ -1191,6 +1191,16 @@ def trainp_model(model, train_features, train_labels, eval_features, eval_labels
     (as np), tensorflow.keras (as keras), datetime,
     tensorflow_model_optimization.sparsity.keras
     (as sparsity)
+    
+    =======
+     Notes
+    =======
+    If using TensorFlow 1.x, the variable names
+    for tracking metrics are 'val_acc' and 'acc'
+    instead of 'val_accuracy' and 'accuracy'.
+    Change the key values in the formatting
+    strings accordingly to avoid a key error when
+    running in TF 1.x.
     '''
     
     ## COMPILE MODEL

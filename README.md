@@ -8,7 +8,7 @@ Firstly, clone this repository by manually downloading it from https://github.co
 
     git clone https://github.com/xxxx/xxxx.git
 
-Then, Click-->'Code'-->'Main.vi' to get started. Follow the User guide <a href='#User Guide'>User Guide</a>  in 'Main.vi' for further process.
+Then, run the LabVIEW Virtual Instrument (VI) at `Code\Main.vi`. There is a user guide in the VI, which is also replicated here in the <a href='#User Guide'>User Guide</a> section.
 
 The <a href='#system_setup'>System setup</a> section details the exact software versions that we used to create and test the VI.
 
@@ -37,17 +37,17 @@ The structure of the repository is as follows:
 
 Example
 -------
-We have also provided an example to show how the auto calibration VI works.
+We have also provided an example to show how the automatic calibration VI works.
 
-1. Select `Input.csv` in the `SampleCSV` folder as input CSV file in `Main.vi` and type in your output CSV file to write the results.
+1. Select `Input.csv` in the `SampleCSV` folder as the input CSV file in `Main.vi` and type in the path to the CSV file to write the outputs to.
 2. Enter your settings and parameters according to the user guide in `Main.vi`.
-3. Click "Run" button or press "Ctrl+R" to run the VI.
+3. Click the "Run" button or press "Ctrl+R" to run the VI.
     
 System setup <a name='system_setup'>
 ------------
 The system we used to test the code in this repository is as follows: 
 - OS: Windows 10
-- Processor: Intel Core i7-7700HQ CPU@ 2.80GHz
+- Processor: Intel Core i7-7700HQ CPU @ 2.80GHz
 - RAM: 16.0GB
 
 The main driver and software versions were:

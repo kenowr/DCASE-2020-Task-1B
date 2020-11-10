@@ -147,4 +147,4 @@ If many values in the "Gain" column are -1 (indicating many unsuccessful searche
 
 Contact
 -------
-If you encounter any problems/bugs in the source code, please drop an email at <a href='mailto:wooi002@e.ntu.edu.sg'> wooi002@e.ntu.edu.sg</a>.
+If you encounter any problems/bugs in the source code, please drop an email at <a href='mailto:bhanlam@ntu.edu.sg'> bhanlam@ntu.edu.sg</a> or <a href='mailto:wooi002@e.ntu.edu.sg'> wooi002@e.ntu.edu.sg</a>.
